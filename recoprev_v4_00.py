@@ -10,6 +10,7 @@
 #
 # for RPi
 # Fonts: sudo apt install ttf-mscorefonts-installer
+# pillow in env> pip install pillow
 #
 # for MACOS
 # PIL: sudo pip3 install Pillow
@@ -26,8 +27,8 @@ GlbStatus = 'waiting for input -- v3.00'
 # myPointZero = tm.struct_time(tm_year=2018, tm_mon=8, tm_mday=30, tm_hour=10, tm_min=0, tm_sec=0)
 myPointZero = '2018-08-30 10:00:00' #'2018-08-30'
 myWTitle = 'RecoPrevent 3.00'
-myWwidth = 800
-myWheight = 480
+myWwidth = 1024 #800
+myWheight = 600 #480
 
 p_top_x = '25'
 p_top_y = '10'
